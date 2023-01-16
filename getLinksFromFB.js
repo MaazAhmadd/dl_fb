@@ -1,9 +1,9 @@
 const puppeteer = require("puppeteer");
-const request = require("request");
-const fs = require("fs");
-const uploadToFB = require("./uploadToFB");
-const logger = require("./logger");
-const flatten = require("flat");
+// const request = require("request");
+// const fs = require("fs");
+// const uploadToFB = require("./uploadToFB");
+// const logger = require("./logger");
+// const flatten = require("flat");
 const { link_saver } = require("./direct_links_saver");
 
 let data = {

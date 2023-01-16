@@ -1,7 +1,7 @@
-const fs = require("fs");
+// const fs = require("fs");
 const ytdl = require("ytdl-core");
-const request = require("request");
-const uploadToFB = require("./uploadToFB");
+// const request = require("request");
+// const uploadToFB = require("./uploadToFB");
 
 const downloadFromYoutube = async (videoUrl) => {
   if (!videoUrl) return;

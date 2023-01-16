@@ -1,9 +1,9 @@
 const request = require("request");
 const getdllinksfromFB = require("./getLinksFromFB");
-const dlfromYT = require("./downloadFromYT");
+// const dlfromYT = require("./downloadFromYT");
 const allLinks = require("./fb_pages/KingJudahOfficial/links.json");
 
-const fs = require("fs");
+// const fs = require("fs");
 // if (process.argv.length < 3) {
 //   throw new Error("type the link");
 // }
