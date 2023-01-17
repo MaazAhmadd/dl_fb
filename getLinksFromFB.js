@@ -95,11 +95,11 @@ function removeInvalidCharacters(string) {
 
 const downloadFromFB = async (mainLink, path, i) => {
   if (!mainLink) return;
-  // const browser = await puppeteer.launch();
-  const browser = await puppeteer.launch({
-    headless: false,
-    args: ["--no-sandbox"],
-  });
+  const browser = await puppeteer.launch();
+  // const browser = await puppeteer.launch({
+  //   headless: false,
+  //   args: ["--no-sandbox"],
+  // });
   const page = await browser.newPage();
   await page.goto(mainLink, { waitUntil: "networkidle0" });
   // console.log("page loaded, about to evaluate");
